@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "unique-alloy-369011",
+  "private_key_id": "aa9b6bfe819e39622b3d3d54607152e32a1bc519",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/E4982RwYZSvj\n7Iw3rgj6ZUfH/FMerVtWeVL0Z/biHbWNCWeCMINpdNWSrKPK1rK8aNvLjBSj5O2u\nWuYX32rsU2j4UVlnLwicLfgM7CGxbQKD4/HVQdu9EFQK8V0Y9mpnbXtQEFuSzooH\nfTO2rvBXNY1GyMBojCE1UXCQYNPBUrROKvcTo+OFY8BDPVp1hJFBX14s9X4IO6hA\n5LarZ8S8nLxt7U6EmtBUOeKsTasx25LbQRAE+G09ALcWFk5G2YlFgGznOD5iLG1/\ntrPxxF9+u5Wa9hHqBoEArEYybyEObbHS7cHPfH8oxvqyY7d6JfkTqGZQOT+hapHt\niEAe+RdLAgMBAAECggEAPWilcFv8bhCx2uYuqERsCUFcoPbEpfLUDIYgdYEmNMSU\nkRfJJuu9iDpu211VpL58ohXXMeM6zPOpuaPoGBsLK5mg/lFyuLlCfKM/ebO4HmQo\n70dmdQHeA7TINd4dbATh7IygmXowXA26Ca8g3CD8CCMjXPDu+Yqzr4WVdilQVOxX\nxrsgTTzBD/0nf3ollfKMOUBqUiA3PxWUtYyZNYCKSdlb8HxCEvN5OOBsXnCJh4zH\nD5b0ykhoEO9PBGqLGWtj6PPs0l+fphIf9JK5SsnsilJ4mL3jaJpS9ujYotqzmjiw\ntbdrDoq3ugA3lepP2r2qtSWhCFRjAywAfJAcvm0YCQKBgQDoNDPe2tXYZRKkfPnb\nyIhEaG+cuApWfEbai1rGFoQN9DyWMyGVOMhd5LsDRuekHN3QK/+rthPoZuOwD87G\n/IUh+ikaJ0Nfs7vMwvRQwOohM/on0i1f+dgiltCgdJoV0eSbNV66rnuIwqjnbZKO\nCP28wzIM6QGVuXiiZdoCMhwS6QKBgQDSqGP481YVOsYsPfBxlykvFwym032iNEui\n6xfQVcNbD8Y0nC+SGJQ1dADJeK0pPZhU3CQdEzHEdDS3fXhHeYG6nSwFK96BcxAX\nji6Oat5Su4kEALltbKzBJvgWg0ZVrSp2PAfxDRXpys98B/34tW15JI0ArvDikZUe\nDk57AZgwEwKBgQDZzR1aS6mJ8EQsRY2XueEXSV5ngbkwpiFPnKboZvY2oICz4gH+\nFeTbLVC9IiTkqq7kNGD8jyzdMKUg37L0sqet1xf2kB2CBvSAe9zuYgU6X6ak81/c\nRl2VFCFcYAKntNjZPJY+RKta/Dux1/U/hO97vxuTQHtcFTwyF5cFuDrdAQKBgBB4\nYfig7eYTBlOHNDltXCb2YmLYvkXkWNWQE/iR/Agun4yVeZKuoUfcngMikEddLX/V\nBm3PhmCZxVVjVfggo+f3Se3NlEQCvwtYboNsD53gU8IgXF8V1Bv19Aeuk903AM7l\nuqk6ILB6zuYfqde8N6b1GKEpDGRqhYIoFDLB2ShJAoGAH1O/NZIsfpl9DDjcRAjx\nXsbl5a39yRDfVKeKR+0U6crgBDsa10B6OLCzi/Tcpv965qe+EaRKJTwX2M2jVuDe\ni38l4MYgLSld4iIx7rQP0q6AzKQ6NE2nBuvOZQFnRgHwl1lDuYKHDJMBAW5SyAwp\n/AiPfZ6Kgq9CT96p7LnRqfI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "extension-google-sheet@unique-alloy-369011.iam.gserviceaccount.com",
+  "client_id": "103669392535532188253",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/extension-google-sheet%40unique-alloy-369011.iam.gserviceaccount.com"
+}
