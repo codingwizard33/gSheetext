@@ -21,9 +21,6 @@ class IndexController{
             }
         }
 
-
-        console.log(response.users);
-
         if(!response.users.length) {
             response.errorMessage = 'Users not found';
             return res.status(204).json(response);
@@ -34,14 +31,25 @@ class IndexController{
 
     async updateUser(req, res){
         const response = new apiResponse();
-        const {userHash, userInfo} = req.body;
-        const row = loadedUsers.get(userHash);
+        const {userInfo} = req.body;
+        const row = loadedUsers.get(userInfo._id);
 
         if(!row)
             return res.status(400).json(response);
 
         row['Status'] = userInfo.status;
-        row[googleSheetService.getRecruiterField(userInfo.status)] = userInfo.recruiter;
+
+        if(userInfo.status === 'Assume Not Interested') {
+            row['Status'] = 'Not Interested';
+            row['Remarks'] = 'assuming NI';
+        }
+
+        if(userInfo.status === 'CBR1')
+           row['Date Accepted on Linkedin'] = userInfo.activityDate;
+
+        if(userInfo.status !== 'CBR1')
+            row[googleSheetService.getRecruiterField(userInfo.status)] = userInfo.recruiter;
+
         row[googleSheetService.getActivityDateField(userInfo.status)] = userInfo.activityDate;
 
         row.save();

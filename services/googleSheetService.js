@@ -21,8 +21,7 @@ let a = [
 class GoogleSheetService{
     constructor(){
         this.activityDateFieldFactory = {
-            'assume not interested': 'FF UP / Close Off Date',
-
+            'Assume Not Interested': 'FF UP / Close Off Date',
             'CBR2': 'LI Msg 2 / Email 2 DATE',
             'Engaged': 'DATE CONTACTED',
             'Not Qualified': 'DATE CONTACTED',
@@ -32,13 +31,13 @@ class GoogleSheetService{
         };
 
         this.recruiterFieldFactory = {
-            'assume not interested': 'FF UP / Close Off POC',
-
+            'Assume Not Interested': 'FF UP / Close Off POC',
             'CBR2': 'LI Msg 2 / Email 2 OWNER',
             'Engaged': 'CONTACTED BY',
             'Not Qualified': 'CONTACTED BY',
             'Not Interested': 'CONTACTED BY',
             'Contacted': 'CONTACTED BY',
+
             'CBR1': '????????',
         };
     }
